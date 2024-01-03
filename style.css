@@ -7,8 +7,8 @@
 html
 ,
 body {
-    background-color: #fff;
-    color: #000;
+    background-color: #f1f0e9;
+    color: #010b43;
     font-family: 'Fira Sans', sans-serif;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
@@ -28,3 +28,4 @@ main{
     font-weight: 10px;
     font-size:30;
 }
+
