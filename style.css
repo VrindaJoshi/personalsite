@@ -21,3 +21,10 @@ h1 {
     font-size: 70px;
 
 }
+
+main{
+    padding: 100;
+    margin-left: 80px;
+    font-weight: 10px;
+    font-size:30;
+}
