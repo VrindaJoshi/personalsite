@@ -9,23 +9,29 @@ html
 body {
     background-color: #f1f0e9;
     color: #010b43;
-    font-family: 'Fira Sans', sans-serif;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
 
+header {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
 h1 {
-    padding: 100;
-    margin-left: 75px;
-    font-weight:400;
+    font-weight:500;
+    font-family: 'Jost', sans-serif;
     font-size: 70px;
 
 }
 
-main{
-    padding: 100;
-    margin-left: 80px;
-    font-weight: 10px;
-    font-size:30;
+h2{
+    font-weight: 300;
+    font-family: 'Jost', sans-serif;
+    font-size:20;
+}
+
+.links {
+    color:#010b43;
 }
 
