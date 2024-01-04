@@ -72,7 +72,11 @@ footer{
     width: 35%;
     height: 100%;
     float: left;
-    
+}
+
+.punnet-img {
+    margin-left: 20%;
+    margin-top: 5%;
 }
 
 .current-img:hover{
