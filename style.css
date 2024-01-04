@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-html 
+html
 ,
+
 body {
     background-color: #f1f0e9;
     color: #010b43;
@@ -13,12 +14,28 @@ body {
     overflow-x: hidden;
 }
 
+
 h1 {
     margin-left: 100px;
+    position:initial;
     font-weight:500;
     margin-top: 150px;
     font-family: 'Jost', sans-serif;
     font-size: 90px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+
+    animation: typewriter 4s steps(150) 0s 1 normal both,
+        blinkTextCursor 500ms steps(150) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
 }
 
 h2{
@@ -73,7 +90,6 @@ footer{
     height: 100%;
     float: left;
 }
-
 .punnet-img {
     margin-left: 20%;
     margin-top: 5%;
