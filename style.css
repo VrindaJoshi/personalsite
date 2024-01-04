@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html
+html 
 ,
 body {
     background-color: #f1f0e9;
@@ -28,13 +28,21 @@ h1 {
 h2{
     font-weight: 300;
     font-family: 'Jost', sans-serif;
-    font-size:30px;
+    font-size:25px;
 }
+
+a {
+    color: #010b43;
+}
+
+a:hover {
+    color: hotpink;
+  }
 
 .links {
     color:#010b43;
     margin-left: 65px;
-    margin-top: 50px;
+    margin-top: 70px;
     list-style: none;
 }
 
@@ -49,7 +57,7 @@ footer{
     font-size:15px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: last baseline;
+    height: 45vh;
 
 }
