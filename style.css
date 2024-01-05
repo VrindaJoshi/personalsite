@@ -14,12 +14,12 @@ body {
     overflow-x: hidden;
 }
 
-
 h1 {
+
     margin-left: 100px;
     position:initial;
     font-weight:500;
-    margin-top: 150px;
+    padding-top: 150px;
     font-family: 'Jost', sans-serif;
     font-size: 90px;
     text-align: left;
@@ -82,16 +82,15 @@ footer{
     width: 90%;
     height: 300px;
     margin-left: 5%;
-    background-color: white
 }
 
 .current-img{
-    width: 35%;
+    width: 25%;
     height: 100%;
     float: left;
 }
 .punnet-img {
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 
@@ -100,7 +99,7 @@ footer{
 }
 
 .current-text {
-    width: 65%;
+    width: 75%;
     height: 100%;
     float: right;
  
@@ -109,7 +108,7 @@ footer{
 h3 {
     margin-left: 40px;
     font-weight:500;
-    margin-top: 60px;
+    margin-top: 30px;
     font-family: 'Jost', sans-serif;
     font-size: 40px; 
 }
@@ -119,6 +118,14 @@ h3 {
     margin-left: 40px;
     font-weight:300;
     margin-top: 20px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px; 
+}
+
+.current-link {
+    margin-right: 100px;
+    float: right;
+    font-weight:300;
     font-family: 'Jost', sans-serif;
     font-size: 18px; 
 }
