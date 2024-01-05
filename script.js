@@ -14,12 +14,13 @@ document.addEventListener('DOMContentLoaded',function(event){
           typeWriter(text, i + 1, location, fnCallback)
         }, 100);
       }
-      // text finished, call callback if there is a callback function
-      else if (typeof fnCallback == 'function') {
-        // call callback after timeout
-        setTimeout(fnCallback, 700);
-      }
+      return false;
     }
+
     typeWriter("hey, i'm vrinda", 0, "h1", function(){
-    });    
+    });
+
+    setTimeout(() => { typeWriter("scroll down 4 more!", 0, "h4", function(){
+    }) }, 4000);
+    
   });  
