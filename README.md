@@ -1,1 +1,1 @@
-in progress: personal site that will be hosted on .github.com
+site is hosted; ongoing project to be worked on + updated!
