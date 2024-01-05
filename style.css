@@ -25,17 +25,17 @@ h1 {
     text-align: left;
     white-space: nowrap;
     overflow: hidden;
+}
 
-    animation: typewriter 4s steps(150) 0s 1 normal both,
-        blinkTextCursor 500ms steps(150) infinite normal;
-  }
-  @keyframes typewriter{
-    from{width: 0;}
-    to{width: 24em;}
-  }
-  @keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
+span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+}
+  
+@keyframes caret {
+    50% {
+      border-color: transparent;
+    }
 }
 
 h2{
