@@ -6,13 +6,14 @@
 
 /* large tablets: 768 - 1023px */
 @media only screen and (max-width: 1023px) {
-   
+    h1{font-size: 7vh;}
 }
 
 
 /* large phones to small tablets: 481 - 767px */
 @media only screen and (max-width: 767px) {
-      
+    h1{font-size: 7vh;}
+
 }
 
 
