@@ -86,56 +86,31 @@ footer{
 
 }
 
-.current-project{
-    width: 90%;
-    height: 300px;
-    margin-left: 5%;
-    margin-top: 75px;
+/* css for projects */
+.projects{
+    border-radius: 16px;
+    width: 90vw;
+    margin-top: 10vh;
+    border: solid;
+    border-color: #ccd5ae;
+    border-width: thick;
+    background-color: #ccd5ae;
 }
 
-.current-img{
-    width: 25%;
-    height: 100%;
-    float: left;
-}
-.punnet-img {
-    margin-left: 10%;
-    margin-top: 5%;
-}
-
-.current-img:hover{
-    background-color: #f1f0e962;    
-}
-
-.current-text {
-    width: 75%;
-    height: 100%;
-    float: right;
- 
+.project-link{
+    float:right;
 }
 
 h3 {
-    margin-left: 40px;
-    font-weight:500;
-    margin-top: 30px;
     font-family: 'Jost', sans-serif;
-    font-size: 40px; 
+    font-size: 6vh; 
 }
 
-.h3-text {
-    width: 85%;
-    margin-left: 40px;
-    font-weight:300;
-    margin-top: 20px;
-    font-family: 'Jost', sans-serif;
-    font-size: 18px; 
+.project-img{
+    margin: 3vh;
+    border-radius: 12px;
 }
 
-.current-link {
-    margin-right: 100px;
-    float: right;
-    font-weight:300;
-    font-family: 'Jost', sans-serif;
-    font-size: 18px; 
+.project-text {
+    padding-top: 3vh;
 }
-
